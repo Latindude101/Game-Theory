@@ -1,0 +1,50 @@
+<h1>2x2 Matrix</h1>
+ <table>
+  <tr>
+    <th></th>
+    <th>L (p)</th>
+    <th>R (1 - p)</th>
+   </tr>
+  <tr>
+    <td style="font-weight:bold">T (q)</td>
+    <td>
+      <input type="number" id="TL1"></input>
+      <input type="number" id="TL2"></input>
+   </td>
+    <td>
+      <input type="number" id="TR1"></input>
+      <input type="number" id="TR2"></input>
+    </td>
+  </tr>
+  <tr>
+    <td style="font-weight:bold">B (1 - q)</td>
+    <td>
+      <input type="number" id="BL1"></input>
+      <input type="number" id="BL2"></input>
+    </td>
+    <td>
+      <input type="number" id="BR1"></input>
+      <input type="number" id="BR2"></input>
+    </td>
+  </tr>
+</table> 
+
+<button id="mixedNash">Find mixed equilibrium</button>
+<!-- Pure Equilibrium finder to be added soon
+<button id="pureNash">Find pure equilibria</button> -->
+<br>
+<br>
+<button id="BoS">Battle of the Sexes</button>
+<button id="stagHunt">Stag Hunt</button>
+<button id="prisonersDilemma">Prisoner's Dilemma</button>
+<button id="matchingPennies">Matching Pennies</button>
+<button id="hawkDove">Hawk Dove</button>
+
+<h3>Probability of playing L is:</h3>
+<h3 id="pprop"></h3>
+<h3>Probability of playing T is:</h3>
+<h3 id="qprop"></h3>
+<h3>Expected Payoff to Column Player</h3>
+<h3 id="columnPayoff"></h3>
+<h3>Expected Payoff to Row Player</h3>
+<h3 id="rowPayoff"></h3>
