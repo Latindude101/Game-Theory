@@ -1,0 +1,9 @@
+$blue: #a3d5d3;
+
+body {
+  background-color: $blue;
+}
+
+input[type=number]{
+    width: 40px;
+}
